@@ -34,7 +34,7 @@ Btn.addEventListener("click", () => {
   else if(d1 >= d2){
     d3 = d1 - d2;
   }
-  if (y3) {
+  if (y3 || m3 || d3) {
     agecalculator.innerHTML = `👉 You are <span>${y3}</span> years, <span>${m3}</span> months, <span>${d3}</span> days old`;
   }
 });
